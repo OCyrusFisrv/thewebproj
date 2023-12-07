@@ -1,0 +1,12 @@
+{
+  "name": "webdevproj",
+  "version": "1.0.0",
+  "description": "For this project you will be creating a Clover Online Ordering experience with dynamic Merchant Info and Menu Data. From the UI the user should be able to click items to add them to a shopping cart, view the cart as a slide-out panel and  proceed to checkout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,87 @@
+/* Styling for the header component */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Styling for the cart button */
+  .cart-button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Styling for the sidebar */
+  .sidebar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  /* Styling for the MerchantHero component */
+
+.merchant-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .merchant-info h2 {
+    margin-top: 0;
+  }
+  
+  .merchant-info p {
+    margin: 5px 0;
+  }
+  
+  .merchant-info ul {
+    padding-left: 20px;
+  }
+  
+  .merchant-info img {
+    max-width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px;
+  }
+  
